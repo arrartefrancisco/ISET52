@@ -250,7 +250,8 @@ figcaption
   }
   aside
   {
-    display: flex;
+    display:none;
+    /*display: flex;*/
     position: relative;
     justify-content: flex-end;
   }
