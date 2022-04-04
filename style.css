@@ -1,0 +1,268 @@
+*
+{
+  font-family: "Bree Serif", serif;
+  box-sizing: content-box;
+  text-align: center;
+  text-decoration: none;
+  color: cyan;
+}
+html
+{
+  background-image: url("https://images.unsplash.com/photo-1617251997364-755733f5fb64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE3MzE1MTM3&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body
+{
+  box-sizing: content-box;
+  margin: auto;
+}
+img
+{
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.5s linear;
+  align-self: flex-start;
+}
+img:hover
+{
+  cursor: pointer;
+}
+/*
+  ENCABEZADO SUPERIOR
+ */
+
+header
+{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 1rem;
+  background-color: rgba(95, 158, 160, 0.562);
+}
+nav
+{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  text-align: justify;
+  vertical-align: middle;
+}
+nav > a
+{
+  display: inline-flex;
+  vertical-align: middle;
+  text-align: center;
+}
+
+nav > a > img
+{
+  display: inline-flex;
+  position: relative;
+  margin-right: 2rem;
+  width: 4rem;
+  border-radius: 50%;
+  box-shadow: 0rem 0rem grey;
+  transition: all 1s;
+  text-align: left;
+}
+
+nav > a > img:hover
+{
+  box-shadow: 0.05rem 0rem 1rem 0.5rem forestgreen;
+}
+/*#icono
+{
+  position: relative;
+  width: 0.5rem;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}*/
+#burger
+{
+  display: inline-flex;
+  background-color: aqua;
+  text-decoration: none;
+  padding: 0.8rem 2.5rem;
+  border-radius: 2rem;
+  color: navy;
+  margin-right: 1rem;
+  box-shadow: -0.5rem 0.5rem 0.5rem black;
+  transition: all 1.5s;
+}
+#burger:hover
+{
+  background-color: navy;
+  color: aqua;
+  box-shadow: -0.5rem -0.5rem 0.5rem white;
+}
+.links
+{
+  display: none;
+  position: relative;
+  margin-top: 2rem;
+  justify-content: center;
+  background-color: lightgray;
+  text-decoration: none;
+  padding: 0.8rem 2.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 2rem;
+  color: black;
+  margin-right: 1rem;
+  box-shadow: -0.5rem 0.5rem 0.5rem black;
+  transition: all 1.5s;
+}
+.links:hover
+{
+  background-color: darkslategray;
+  color: white;
+}
+aside
+{
+  display: flex;
+  justify-content:center;
+}
+aside > iframe 
+{
+    display: flex;
+}
+/*
+ MAIN
+ */
+
+main
+{
+  display: block;
+  position: relative;
+  top: 10rem;
+  background-color: rgba(47, 79, 79,0.8);
+  color: aqua;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+h1
+{
+  color: navy;
+}
+p
+{
+  display: inherit;
+  position: inherit;
+  z-index: 0;
+  color: forestgreen;
+  text-align: justify;
+  transition: all 1s linear;
+}
+figure
+{
+  display: none;
+  position: relative;
+  justify-content: center;
+  z-index: 1;
+  padding: 0rem;
+  margin: 0.5rem;
+  transition: all 2s linear;
+}
+iframe
+{
+  display: none;
+  width: 400px;
+  height: 300px;
+  border-radius: 1rem;
+}
+#galleryFigure
+{
+  display: none;
+  position: relative;
+  justify-content: center;
+  flex: none;
+}
+figcaption
+{
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#divMap
+{
+  display: none;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+/* #divMap
+{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+} */
+@media only screen and (min-width: 768px)
+{
+  header
+  {
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  .links, #burger
+  {
+    display: inline-flex;
+    background-color: aqua;
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    color: navy;
+    margin-right: 1rem;
+    box-shadow: -0.5rem 0.5rem 0.5rem black;
+    transition: all 1.5s;
+    vertical-align: bottom;
+  }
+  #burger
+  {
+    display: none;
+  }
+  .links:hover
+  {
+    background-color: navy;
+    color: aqua;
+    box-shadow: -0.5rem -0.5rem 0.5rem white;
+  }
+  figure:hover > figcaption
+  {
+    display: flex;
+    background-color: forestgreen;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  aside
+  {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+  }
+
+  aside > iframe
+  {
+   display: flex;
+  }
+  span
+  {
+    display: inline-flex;
+    position: relative;
+    width: 5rem;
+  }
+}
