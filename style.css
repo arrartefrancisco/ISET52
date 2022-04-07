@@ -117,20 +117,20 @@ nav > a > img:hover
   position: relative;
   margin-top: 2rem;
   justify-content: center;
-  background-color: lightgray;
+  background-color: aqua;
   text-decoration: none;
   padding: 0.8rem 2.5rem;
   margin-bottom: 0.5rem;
   border-radius: 2rem;
-  color: black;
+  color: navy;
   margin-right: 1rem;
   box-shadow: -0.5rem 0.5rem 0.5rem black;
   transition: all 1.5s;
 }
 .links:hover
 {
-  background-color: darkslategray;
-  color: white;
+  background-color: navy;
+  color: aqua;
 }
 aside
 {
