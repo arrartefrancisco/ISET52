@@ -223,7 +223,8 @@ figcaption
     padding-top: 0rem;
     padding-bottom: 0.5rem;
   }
-  .links, #burger
+  /*.links, #burger*/
+  .links
   {
     display: inline-flex;
     background-color: aqua;
