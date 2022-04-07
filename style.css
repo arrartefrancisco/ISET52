@@ -231,7 +231,7 @@ figcaption
     text-decoration: none;
     padding: 0.8rem 2.5rem;
     border-radius: 2rem;
-    color: navy;
+    /*color: navy;*/
     margin-right: 1rem;
     box-shadow: -0.5rem 0.5rem 0.5rem black;
     transition: all 1.5s;
