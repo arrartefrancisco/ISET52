@@ -216,6 +216,7 @@ figcaption
   justify-content: center;
   align-items: center;
 } */
+/*
 @media only screen and (min-width: 768px)
 {
   header
@@ -223,7 +224,6 @@ figcaption
     padding-top: 0rem;
     padding-bottom: 0.5rem;
   }
-  /*.links, #burger*/
   .links
   {
     display: inline-flex;
@@ -231,7 +231,7 @@ figcaption
     text-decoration: none;
     padding: 0.8rem 2.5rem;
     border-radius: 2rem;
-    /*color: navy;*/
+    color: navy;
     margin-right: 1rem;
     box-shadow: -0.5rem 0.5rem 0.5rem black;
     transition: all 1.5s;
@@ -257,7 +257,7 @@ figcaption
   aside
   {
     display:none;
-    /*display: flex;*/
+    display:flex;
     position: relative;
     justify-content: flex-end;
   }
@@ -273,3 +273,4 @@ figcaption
     width: 5rem;
   }
 }
+*/
