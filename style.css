@@ -44,7 +44,7 @@ header
   z-index: 1;
   width: 100%;
   padding-top: 1rem;
-  background-color: rgba(95, 158, 160, 0.562);
+  /*background-color: rgba(95, 158, 160, 0.562);*/
 }
 nav
 {
